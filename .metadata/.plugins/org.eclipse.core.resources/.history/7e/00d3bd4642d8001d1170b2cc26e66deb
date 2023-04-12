@@ -1,0 +1,23 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int num1 = 0;
+		
+		
+		switch(num1 % 10) { //switch는 if 대신 깔끔하게 만들어주는 역
+		case 9:
+			System.out.println("A학점");
+			break;	//break는 중간에 끊어주는 역할
+		case 9:
+			System.out.println("B학점");
+			break;
+		default:
+			break;
+		}
+	}
+
+}

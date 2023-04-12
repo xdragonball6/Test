@@ -1,0 +1,13 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Data출력
+		System.out.println("1234");
+		System.out.println(1234+5);
+		
+
+	}
+
+}

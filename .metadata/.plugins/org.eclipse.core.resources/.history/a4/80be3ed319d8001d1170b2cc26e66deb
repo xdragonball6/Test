@@ -1,0 +1,21 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		int 국어 = 0, 영어 = 0, 수학 = 0;
+		
+		int 평균점수 = ((국어+영어+수학)/3);
+		
+		System.out.println("국어 점수를 입력하세요 :");
+		System.out.println("영어 점수를 입력하세요 :");
+		System.out.println("수학 점수를 입력하세요 :");
+	
+	}
+
+}

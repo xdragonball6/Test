@@ -1,0 +1,13 @@
+package com.javalec.base;
+
+public class Hello {
+
+	public static void main(String[] args) {
+//		화면에 Hello 출력하기
+		System.out.print("Hello!\n");
+		System.out.println("\tWorld");
+		
+		System.out.print("**대한민국**\nApple \t사과 \nBanana \t바나")
+	}
+	
+}

@@ -1,0 +1,28 @@
+package com.java.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner =new Scanner(System.in);
+		double hight = 0, weight = 0;
+		String message = "";
+		
+		System.out.println("***BMI 계산기***");
+		System.out.println("");
+		System.out.print("신장(cm)을 입력하세요 :");
+		hight = scanner.nextDouble();
+		System.out.print("몸무게(kg)을 입력하세요 :");
+		weight = scanner.nextDouble();
+		if (hight<0 || hight>1000 || weight<0 || weight>1000) {
+			System.out.println("잘못된 입력값입니다.");
+		}
+		System.out.println("");
+		double hw = hight / (weight^2);
+		System.out.println("계산 결과 귀하는"+hw+"입니다.");
+		
+	}
+
+}

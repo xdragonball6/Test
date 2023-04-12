@@ -1,0 +1,34 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		int score = 0;
+		String message = "";
+		System.out.print("점수를 입력하세요 :");
+		score = scanner.nextInt();
+		
+		switch(score / 10) { //switch는 if 대신 깔끔하게 만들어주는 역
+		case 10:
+			System.out.println("A학점");
+		case 9:
+			System.out.println("A학점");
+			break;	//break는 중간에 끊어주는 역할
+		case 8:
+			System.out.println("B학점");
+			break;
+		case 7:
+			System.out.println("C학점");
+			break;
+		default:
+			System.out.println("D학점");
+			break;
+		}
+	}
+
+}

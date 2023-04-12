@@ -1,0 +1,13 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String str = "**대한민국** \nApple \t사과 \nBanana \t바나나";
+		String str1 = "**Korea** \nApple \t사과 \nBanana \t바나나";
+		
+		System.out.println(str);
+		System.out.println(str1);
+	}
+
+}

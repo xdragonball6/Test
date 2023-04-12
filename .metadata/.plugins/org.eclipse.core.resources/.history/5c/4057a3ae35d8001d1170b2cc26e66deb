@@ -1,0 +1,35 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int score = 0;
+		String message = "";
+		String a = "점수가";
+		
+		System.out.print("점수를 입력하세요 :");
+		score = scanner.nextInt();
+		if(score>100 || score<0) {
+			System.out.println("점수를 잘못 입력했습니다.");
+		}
+		
+		if(score>=90) {
+			message = a+score+"여서 A학점입니다";
+		}
+		else if(score>=80) {
+			message = a+score+"여서 B학점입니다";
+		}
+		else if(score>=70) {
+			message = a+score+"여서 C학점입니다";
+		}
+		else {
+			message = a+score+"여서 D학점입니다";
+		}
+		System.out.println(message);
+		}
+		
+	}

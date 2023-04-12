@@ -1,0 +1,15 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Condition 
+		
+		int i = 10, j = 20, k = 10;
+		
+		System.out.println("--- END ---");
+		
+		
+	}
+
+}

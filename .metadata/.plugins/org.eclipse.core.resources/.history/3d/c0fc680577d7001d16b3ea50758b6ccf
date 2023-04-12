@@ -1,0 +1,27 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 연산자
+		int i = 10;
+		int j = 2;
+		int k = 5;
+		
+		// 자동 증감 연산자
+		i = i + 1;
+		i += 1;
+		i++;
+		System.out.println("증가 :"+ i);
+
+		i = i - 1;
+		i -= 1;
+		i--;
+		System.out.println("감소 :" + i);
+		
+		// 동등 비교 관계 연산자
+		System.out.println(i == j);
+		System.out.println(i != j);
+	}
+
+}

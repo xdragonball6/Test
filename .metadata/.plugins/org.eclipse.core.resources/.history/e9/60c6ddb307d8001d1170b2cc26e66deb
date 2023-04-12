@@ -1,0 +1,19 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Condition 
+		
+		int i = 10, j = 20, k = 10;
+		
+		if(j>i) {
+			System.out.println("j가 i보다 큽니다.");
+		}
+		
+		System.out.println("--- END ---");
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int 숫자 = 0;
+		String message = "";
+		System.out.print("숫자를 입력하세요 : ");
+		숫자 = scanner.nextInt();
+		
+		if (숫자 % 2==0) {
+			String side = ("입력하신 숫자+"+숫자+"(은)는");
+			message=(side+"짝수입니다.");
+		} else {
+			message=(side+"홀수입니다.");
+		}
+		
+		System.out.println(message);
+		
+	}
+
+}

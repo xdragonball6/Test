@@ -1,0 +1,51 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		int 국어 = 0, 영어 = 0, 수학 = 0;
+		String message ="";
+		
+		System.out.print("국어 점수를 입력하세요 :");
+		국어 = scanner.nextInt();
+		System.out.print("영어 점수를 입력하세요 :");
+		영어 = scanner.nextInt();
+		System.out.print("수학 점수를 입력하세요 :");
+		수학 = scanner.nextInt();
+		
+		int 평균점수 = ((국어+영어+수학)/3);
+		System.out.print("평균점수 :"+평균점수);
+		String scoreis ="점수는 평균";
+		if(국어 == 평균점수) {
+			message = "국어"+scoreis;
+		} else if(국어 > 평균점수) {
+			message = "국어"+scoreis+"이상";
+		} else {
+			message = "국어"+scoreis+"이하";
+		}
+		
+		if(영어 == 평균점수) {
+			message = "영어"+scoreis;
+		} else if(영어 > 평균점수) {
+			message = "영어"+scoreis+"이상";
+		} else {
+			message = "영어"+scoreis+"이하";
+		}
+		
+		if(수학 = 평균점수) {
+			message = "수학"+scoreis;
+		} else if(수학> 평균점수) {
+			message = "수학"+scoreis+"이상";
+		} else {
+			message = "수학"+scoreis+"이하";
+		}
+		
+		System.out.println(message+"입니다.");
+	}
+
+}

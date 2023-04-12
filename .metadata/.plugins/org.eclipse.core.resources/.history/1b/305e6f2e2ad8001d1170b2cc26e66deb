@@ -1,0 +1,58 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		int 국어 = 0, 영어 = 0, 수학 = 0;
+		String message ="";
+		System.out.print("국어 점수를 입력하세요 :");
+		국어 = scanner.nextInt();
+		System.out.print("영어 점수를 입력하세요 :");
+		영어 = scanner.nextInt();
+		System.out.print("수학 점수를 입력하세요 :");
+		수학 = scanner.nextInt();
+		
+		if(국어>100 || 국어 <0 || 영어>100 ||영어<0||수학>100||수학<0) {
+			System.out.println("점수를 잘못 입력 하셨습니다.");
+		}
+		
+		int 평균점수 = ((국어+영어+수학)/3);
+		System.out.println("평균점수 :"+평균점수);
+		String scoreis ="점수는 평균";
+		
+		
+		if(국어 == 평균점수) {
+			message = scoreis+"입";
+		} else if(국어 > 평균점수) {
+			message = scoreis+"보다 높습.";
+		} else {
+			message = scoreis+"보다 낮습";
+		}
+		System.out.println("국어"+message+"니다.");
+		
+		if(영어 == 평균점수) {
+			message = scoreis+"입";
+		} else if(영어 > 평균점수) {
+			message = scoreis+"보다 높습";
+		} else {
+			message = scoreis+"보다 낮습";
+		}
+		System.out.println("영어"+message+"니다.");
+		
+		if(수학 == 평균점수) {
+			message = scoreis+"입";
+		} else if(수학 > 평균점수) {
+			message = scoreis+"보다 높습";
+		} else {
+			message = scoreis+"보다 낮습";
+		}
+		System.out.println("수학"+message+"니다.");
+				
+	}
+
+}
