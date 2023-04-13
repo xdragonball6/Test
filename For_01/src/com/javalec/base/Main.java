@@ -149,10 +149,10 @@ public class Main {
 		int largeNum = 0;
 		int smallNum = 0;
 		int evenSum = 0;
-		int oddSum = 0;
+		double oddSum = 0;
 		int evenCount = 0;
 		int oddCount = 0; //홀수의 갯
-		int Sum=0;
+		double Sum=0;
 		int Count =0;
 		int average=0;
 		int oddAverage=0;
@@ -183,8 +183,8 @@ public class Main {
 			}
 			
 			//평균 구하기
-			average = (double)Sum / Count;
-			oddAverage = (double)oddSum / oddCount;
+//			average = Sum / Count;
+//			oddAverage = oddSum / oddCount;
 			
 			//출력하기
 			System.out.println("범위 합계는" + Sum + "입니다.");
