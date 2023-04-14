@@ -32,13 +32,13 @@ public class Main {
 			}
 		
 			System.out.println();
-		}
-		//if문 사용하지 않고 적어보기
-		for (int num=1; num<=9; num++) {
-			for(int dan=2; dan<=9; dan++) {
-				System.out.print(((dan*num)%2==0 ? dan+" X "+num+" = "+(dan*num)+"\t" : "\t\t"));
-			}
-			System.out.println("\t\t");
+//		}
+//		//if문 사용하지 않고 적어보기
+//		for (int num=1; num<=9; num++) {
+//			for(int dan=2; dan<=9; dan++) {
+//				System.out.print(((dan*num)%2==0 ? dan+" X "+num+" = "+(dan*num)+"\t" : "\t\t"));
+//			}
+//			System.out.println("\t\t");
 		}
 	}
 }
