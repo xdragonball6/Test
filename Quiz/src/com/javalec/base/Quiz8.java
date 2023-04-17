@@ -27,7 +27,7 @@ package com.javalec.base;
 		 //몫이 0이 아니면 반복되게 만든다
 		 //예를들어 1234567을10으로 나누면 7이 남을거고 그 다음 123456을 10으로 나누면 6이 남을거고 12345를 10으로 나누면 5가 나올거야 그러니까 나머지값을 계속 나오게 하고 다 더해봐
 		 
-		 while(calcValue !=0) { //while에서 숫자를 적은 뒤 !를 적으면 예외시킨다는 뜻을 지니고 있음
+		 while(calcValue !=0) { //0과 같지 않을때 즉 0과 같으면 멈춤
 			remainder= calcValue%10;
 			sum+=remainder;
 			calcValue=calcValue/10;

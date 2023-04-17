@@ -15,9 +15,9 @@ public class Quiz5 {
 		prNum=scanner.nextInt();
 		
 		for(int i=1; i<=prNum; i++) { //i는 피라미드를 세어주는 숫자
-			num+=i;
+			for(int j=1; j<=i; j++) { //j는 한 행의 숫자 갯수와 열의 숫자 갯수가 같다면 줄을 바꿔서 출력하게 만드는 녀석
+			num+=1;
 			System.out.print(num);
-		for(int j=0; j<=i; j++) { //j는 한 행의 숫자 갯수와 열의 숫자 갯수가 같다면 줄을 바꿔서 출력하게 만드는 녀석
 		}
 		System.out.println("");
 	}
